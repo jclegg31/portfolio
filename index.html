@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Julie Clegg | Front End Developer</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,7 +25,168 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+    <!-- do I want to div up the nav and the h1/h2 or is a nav like a div? 
+  Don't nest <nav> inside <header>. Do nest the hamburger menu button inside <nav>.-->
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h1>Hi there, I'm Julie Clegg!</h1>
+        <h2>I’m a front-end developer based out of beautiful, sunny Colorado! </h2>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="proj-1">
+        <figure>
+          <a href="https://3y778e.csb.app/" target="_blank"><img src="./img/stickynotesapp.png"
+              alt="Sticky Note Project" width="50%"></a>
+        </figure>
+        <h3>Sticky Notes App</h3>
+        <p>An interactive app built with React that lets users create “sticky notes” to keep track of their to-do items.
+          Notes can
+          be created, edited, deleted and searched.</p>
+        <p><span>Skills:</span> React, ES6, JSX, Managing data flow, Manipulating the DOM, Local Storage</p>
+        <P><span>Tools:</span>CodeSandbox</P>
+        <a href="https://3y778e.csb.app/" target="_blank">Live Version</a>
+      </div>
+
+      <div id="proj-2">
+        <figure>
+          <a href="https://jclegg31.github.io/guess-the-word-game/" target="_blank"><img
+              src="./img/guessthewordgame.png" alt="Guess the Word Game" width="50%"></a>
+        </figure>
+        <h3>Guess the Word Game</h3>
+        <p>An interactive game built with JavaScript and a JSON file where players try to guess the word before their
+          guesses run
+          out. Guess all of the letters correctly in eight attempts, you win!</p>
+        <p><span>Skills:</span> HTML, CSS, Vanilla JavaScript, DOM Manipulation, Loops</p>
+        <P><span>Tools:</span>Visual Studio Code, GitHub</P>
+        <a href="https://jclegg31.github.io/guess-the-word-game/" target="_blank">Live Version</a>
+      </div>
+
+      <div id="proj-3">
+
+        <figure>
+          <a href="https://jclegg31.github.io/github-repo-gallery/" target="_blank"><img src="./img/githubrepo.png"
+              alt="GitHub Repo Gallery" width="50%"></a>
+        </figure>
+
+        <h3>GitHub Repo Gallery</h3>
+        <p>A customized responsive gallery of my repositories using GitHub’s API to pull data from my GitHub profile.
+          Visitors can
+          click on the repos to see more details.</p>
+        <p><span>Skills:</span> HTML, CSS, JavaScript, APIs, Loops, DOM Manipulation, CSS Animation</p>
+        <P><span>Tools:</span>Visual Studio Code, GitHub</P>
+        <a href="https://jclegg31.github.io/github-repo-gallery/" target="_blank">Live Version</a>
+
+      </div>
+
+      <div id="proj-4">
+        <figure>
+          <a href="https://jclegg31.github.io/unplugged-retreat/" target="_blank"><img src="./img/unpluggedretreat.png"
+              alt="Unplugged Corporate Retreat" width="50%"></a>
+        </figure>
+        <h3>Unplugged</h3>
+        <p>A multi page responsive website built from a Photoshop design comp that adapts to mobile, tablet and desktop
+          screens.
+          The site features a Google Map integration and responsive elements to create a clean, informative site.</p>
+        <p><span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries, Responsive Typography</p>
+        <P><span>Tools:</span>Visual Studio Code, GitHub, Photoshop</P>
+        <a href="https://jclegg31.github.io/unplugged-retreat/" target="_blank">Live Version</a>
+      </div>
+
+    </section>
+
+    <section id="skills-tools">
+
+      <div id="skills-section">
+        <h2>Skills</h2>
+        <div>HTML5</div>
+        <div>CSS3</div>
+        <div>Flexbox & CSS Grid</div>
+        <div>Responsive Web Development</div>
+        <div>JavaScript</div>
+        <div>React.js</div>
+        <div>JSX & ES6</div>
+        <div>Git & GitHub</div>
+        <div>APIs</div>
+        <div>Managing Data Flow</div>
+        <div>Media Queries</div>
+      </div>
+
+      <div id="tools-section">
+        <h2>Tools</h2>
+        <div>Visual Studio Code</div>
+        <div>Code Sandbox</div>
+        <div>Chrome Dev Tools</div>
+        <div>Photoshop, InDesign, Lightroom</div>
+        <div>FTP Clients</div>
+        <div>Web Hosting</div>
+        <div>Git</div>
+      </div>
+
+    </section>
+
+    <section id="about">
+      <h2>Hi! I'm Julie Clegg. </h2>
+      <h3>I’m a front-end developer based out of sunny Colorado!</h3>
+      <div>
+        <img src="" alt="Julie Clegg photo" />
+      </div>
+      <div>
+        <p>I really have always enjoyed building and creating things since I was young. I would find myself bouncing
+          between being creative and being more technical. Over the years I found that coding struck the perfect balance
+          between the two that allowed me to do both.</p>
+
+        <p>When I’m offline you’ll find me at my sons’ travel baseball games or hiking around all the great trails
+          Colorado has to
+          offer.</p>
+      </div>
+
+    </section>
+
+
+  </main>
+
+  <footer>
+    <h3>Contact Me</h3>
+    <ul>
+      <li>GitHub</li>
+      <li>LinkedIn</li>
+      <li>E-mail</li>
+    </ul>
+    <p>Hand-coded by Julie Clegg &copy2023</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

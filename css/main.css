@@ -86,6 +86,21 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* header {
+  border: 1px solid blue;
+}
+
+main {
+  border: 1px solid green;
+}
+
+footer {
+  border: 1px solid red;
+}
+
+article {
+  border: 2px solid yellow;
+} */
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +275,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
