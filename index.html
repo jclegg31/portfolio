@@ -19,6 +19,12 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Lexend+Deca:wght@100;200;500;600;700&family=Lexend+Tera:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -26,9 +32,9 @@
 
   <!-- Add your site or application content here -->
   <header>
-    <!-- do I want to div up the nav and the h1/h2 or is a nav like a div? 
-  Don't nest <nav> inside <header>. Do nest the hamburger menu button inside <nav>.-->
-    <div>
+    <div class="content-wrapper">
+
+
       <nav>
         <ul>
           <li><a href="#projects">Projects</a></li>
@@ -38,17 +44,21 @@
         </ul>
       </nav>
 
-      <div>
-        <h1>Hi there, I'm Julie Clegg!</h1>
+
+
+      <div class="header-intro">
+        <h1>Hi there!<br> I'm Julie Clegg!</h1>
         <h2>I’m a front-end developer based out of beautiful, sunny Colorado! </h2>
       </div>
+
+
     </div>
 
   </header>
 
   <main>
 
-    <section id="projects">
+    <section class="projects">
       <h2>Projects</h2>
       <div id="proj-1">
         <figure>
@@ -111,7 +121,7 @@
 
     </section>
 
-    <section id="skills-tools">
+    <section id="skills">
 
       <div id="skills-section">
         <h2>Skills</h2>
@@ -162,7 +172,7 @@
 
   </main>
 
-  <footer>
+  <footer id="contact">
     <h3>Contact Me</h3>
     <ul>
       <li>GitHub</li>

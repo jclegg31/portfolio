@@ -86,21 +86,64 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* header {
-  border: 1px solid blue;
+/* font-family: 'Lekton', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Lexend Tera', sans-serif;
+ */
+
+body {
+  font-size: 1em;
+  font-family: "Lexend Deca", sans-serif;
+  color: #152a3e;
+  background-color: #cac691;
 }
 
-main {
-  border: 1px solid green;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-footer {
-  border: 1px solid red;
+.content-wrapper {
+  width: 85%;
 }
 
-article {
-  border: 2px solid yellow;
-} */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 60px 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #152a3e;
+}
+
+.header-intro {
+  padding: 0 0 30px 0;
+}
+
+.header-intro h1 {
+  font-size: 2.5em;
+  padding: 0 0 30px 0;
+  margin: 0;
+}
+
+.header-intro h2 {
+  font-family: "Lekton", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.projects h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 80px 0 20px 0;
+}
 
 /* ==========================================================================
    Helper classes
