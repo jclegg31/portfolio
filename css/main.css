@@ -105,7 +105,7 @@ header {
   flex-flow: row wrap;
 }
 
-.content-wrapper {
+header .header-wrapper {
   width: 85%;
 }
 
@@ -138,11 +138,69 @@ li a {
   margin: 0;
 }
 
-.projects h2 {
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.projects-wrapper {
+  width: 85%;
+  /* margin: auto; */
+}
+
+.projects-wrapper > h2 {
   font-size: 2em;
   text-align: center;
   margin: 0;
   padding: 80px 0 20px 0;
+}
+
+.project-image {
+  /* text-align: center; */
+  margin: 0;
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin: 20px 0 40px 0;
+  text-align: center;
+}
+
+p span {
+  font-weight: 900;
+}
+
+.first-paragraph {
+  margin: 0 0 30px 0;
+}
+
+.skills,
+.tools {
+  margin: 0;
+}
+
+.live-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-link a {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  background-color: #152a3e;
+  color: white;
+  text-decoration: none;
+  padding: 15px 10px;
+  margin: 30px 0 70px 0;
+  width: 40%;
+  border-radius: 30px;
 }
 
 /* ==========================================================================
@@ -316,5 +374,19 @@ li a {
   h2,
   h3 {
     page-break-after: avoid;
+  }
+}
+
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) {
+  body {
+    background: pink;
+  }
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+  body {
+    background: gray;
   }
 }

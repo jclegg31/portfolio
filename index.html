@@ -32,7 +32,7 @@
 
   <!-- Add your site or application content here -->
   <header>
-    <div class="content-wrapper">
+    <div class="header-wrapper">
 
 
       <nav>
@@ -58,27 +58,31 @@
 
   <main>
 
-    <section class="projects">
+    <section class="projects-wrapper">
       <h2>Projects</h2>
-      <div id="proj-1">
-        <figure>
+      <div class="project">
+        <div class="project-image">
           <a href="https://3y778e.csb.app/" target="_blank"><img src="./img/stickynotesapp.png"
-              alt="Sticky Note Project" width="50%"></a>
-        </figure>
-        <h3>Sticky Notes App</h3>
-        <p>An interactive app built with React that lets users create “sticky notes” to keep track of their to-do items.
+              alt="Sticky Note Project"></a>
+        </div>
+        <h3>Super Sticky Notes</h3>
+        <p class="first-paragraph">An interactive app built with React that lets users create “sticky notes” to keep
+          track of their to-do items.
           Notes can
           be created, edited, deleted and searched.</p>
-        <p><span>Skills:</span> React, ES6, JSX, Managing data flow, Manipulating the DOM, Local Storage</p>
-        <P><span>Tools:</span>CodeSandbox</P>
-        <a href="https://3y778e.csb.app/" target="_blank">Live Version</a>
+        <p class="skills"><span>Skills:</span> React, ES6, JSX, Managing data flow, Manipulating the DOM</p>
+        <P class="tools"><span>Tools:</span> CodeSandbox</P>
+        <div class="live-link">
+          <a href="https://3y778e.csb.app/" target="_blank">Live Version</a>
+        </div>
       </div>
 
-      <div id="proj-2">
-        <figure>
+
+      <div class="project">
+        <div>
           <a href="https://jclegg31.github.io/guess-the-word-game/" target="_blank"><img
-              src="./img/guessthewordgame.png" alt="Guess the Word Game" width="50%"></a>
-        </figure>
+              src="./img/guessthewordgame.png" alt="Guess the Word Game"></a>
+        </div>
         <h3>Guess the Word Game</h3>
         <p>An interactive game built with JavaScript and a JSON file where players try to guess the word before their
           guesses run
@@ -88,12 +92,12 @@
         <a href="https://jclegg31.github.io/guess-the-word-game/" target="_blank">Live Version</a>
       </div>
 
-      <div id="proj-3">
+      <div class="project">
 
-        <figure>
+        <div>
           <a href="https://jclegg31.github.io/github-repo-gallery/" target="_blank"><img src="./img/githubrepo.png"
-              alt="GitHub Repo Gallery" width="50%"></a>
-        </figure>
+              alt="GitHub Repo Gallery"></a>
+        </div>
 
         <h3>GitHub Repo Gallery</h3>
         <p>A customized responsive gallery of my repositories using GitHub’s API to pull data from my GitHub profile.
@@ -105,13 +109,14 @@
 
       </div>
 
-      <div id="proj-4">
-        <figure>
+      <div class="project">
+        <div>
           <a href="https://jclegg31.github.io/unplugged-retreat/" target="_blank"><img src="./img/unpluggedretreat.png"
-              alt="Unplugged Corporate Retreat" width="50%"></a>
-        </figure>
+              alt="Unplugged Corporate Retreat"></a>
+        </div>
         <h3>Unplugged</h3>
-        <p>A multi page responsive website built from a Photoshop design comp that adapts to mobile, tablet and desktop
+        <p>A multi page responsive website built from a Photoshop design comp that adapts to mobile, tablet and
+          desktop
           screens.
           The site features a Google Map integration and responsive elements to create a clean, informative site.</p>
         <p><span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries, Responsive Typography</p>
