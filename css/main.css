@@ -147,11 +147,10 @@ main {
 
 .projects-wrapper {
   width: 85%;
-  /* margin: auto; */
 }
 
 .projects-wrapper > h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
   margin: 0;
   padding: 80px 0 20px 0;
@@ -201,6 +200,38 @@ p span {
   margin: 30px 0 70px 0;
   width: 40%;
   border-radius: 30px;
+}
+
+.skills-wrapper {
+  width: 85%;
+}
+
+.skills-wrapper > h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 60px 0 40px 0;
+}
+
+#skills {
+}
+
+#skills > h2 {
+  margin: 0 0 20px 0;
+}
+
+#tools {
+}
+
+#tools > h2 {
+  margin: 0 0 20px 0;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  width: auto;
 }
 
 /* ==========================================================================
