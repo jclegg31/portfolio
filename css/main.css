@@ -178,10 +178,10 @@ p span {
   margin: 0 0 30px 0;
 }
 
-.skills,
+/* .skills,
 .tools {
   margin: 0;
-}
+} */
 
 .live-link {
   display: flex;
@@ -272,6 +272,56 @@ p span {
   border-radius: 50%;
   -webkit-shape-outside: circle();
   shape-outside: circle();
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper {
+  width: 85%;
+  margin: 0;
+}
+
+.footer-wrapper h2 {
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.footer-wrapper h3 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.footer-wrapper ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-wrapper h3 a {
+  text-decoration: none;
+  color: #152a3e;
+}
+
+.footer-wrapper p {
+  text-align: center;
+  margin: 60px 0;
+  font-family: "Lekton", sans-serif;
+  font-weight: 400;
+}
+
+.fa-brands,
+.fa-github {
+  color: #152a3e;
+  font-size: 2.5rem;
 }
 
 /* ==========================================================================
