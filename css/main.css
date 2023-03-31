@@ -202,8 +202,10 @@ p span {
   border-radius: 30px;
 }
 
-.skills-wrapper {
+.skills-wrapper,
+.about-wrapper {
   width: 85%;
+  margin-bottom: 160px;
 }
 
 .skills-wrapper > h2 {
@@ -213,6 +215,8 @@ p span {
 }
 
 #skills {
+  font-family: "Lekton", sans-serif;
+  font-weight: 400;
 }
 
 #skills > h2 {
@@ -220,6 +224,8 @@ p span {
 }
 
 #tools {
+  font-family: "Lekton", sans-serif;
+  font-weight: 400;
 }
 
 #tools > h2 {
@@ -232,6 +238,40 @@ p span {
   align-items: flex-start;
   flex-flow: row wrap;
   width: auto;
+}
+
+/* Leave here in case you change mind on About me section */
+/* .photo-section {
+  display: flex;
+}
+
+.devphoto {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.circlephoto,
+.curve {
+  border-radius: 50%;
+} */
+
+#circle-shape {
+  margin: 2rem;
+}
+
+#circle-shape p {
+  line-height: 1.8;
+}
+
+#circle-shape .curve {
+  width: 33%;
+  height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right: 2rem;
+  border-radius: 50%;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
 }
 
 /* ==========================================================================
