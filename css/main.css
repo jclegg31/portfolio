@@ -258,28 +258,42 @@ p span {
   font-family: "Lekton", sans-serif;
   font-weight: 400;
   margin-bottom: 40px;
+  width: 100%;
 }
 
-#skills > h2 {
+#skills p,
+#tools p {
+  background-color: #152a3e;
+  color: #eeefda;
+  padding: 15px 15px;
+  
+}
+
+.dev-skills-header {
   margin: 0 0 20px 0;
+  font-family: "Lekton", sans-serif;
+  font-weight: 900;
+    font-size: 1.5rem;
 }
 
 #tools {
   font-family: "Lekton", sans-serif;
   font-weight: 400;
-}
-
-#tools h2 {
-  margin: 0 0 20px 0;
+  width: 100%;
 }
 
 .skills-section {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
   width: auto;
 }
+
+/* #skills p,
+#tools p {
+  margin: 20px 0;
+} */
 
 /* Leave here in case you change mind on About me section */
 /* .photo-section {
@@ -579,19 +593,26 @@ footer {
 
   nav ul {
     padding: 30px 0 80px 0;
+    justify-content: space-around;
   }
 
   .header-intro h1 {
     padding: 0 0 80px 0;
+    font-size: 3.5rem;
+    text-align: center;
   }
 
   .header-intro {
     padding: 0 0 80px 0;
   }
 
+  .header-intro h2 {
+    text-align: center;
+  }
+
   h2.proj-header {
     padding: 120px 0 80px 0;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .projects-wrapper {
@@ -609,20 +630,114 @@ footer {
 
   .skills-wrapper > h2 {
     margin: 80px 0 40px 0;
+    font-size: 3.5rem;
   }
 
   .skills-wrapper {
     margin-bottom: 120px;
   }
+  #skills, #tools {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+#skills p,
+#tools p {
+  width: 40%;
+}
+
+
+
+  h2 {
+    font-size: 2rem;
+  }
 
   .about-wrapper {
     margin: 120px 0;
   }
+
+  .footer-wrapper h2 {
+    font-size: 3.5rem;
 }
 
 /* ----------- For screens 1200px wide and larger----------- */
 @media (min-width: 1200px) {
-  body {
+  /* body {
     background: gray;
+  } */
+
+  nav ul {
+    padding: 80px 0 80px 0;
+    justify-content: flex-end;
   }
+
+  nav li {
+    margin: 0 25px 0 25px;
+  }
+
+  nav a {
+    font-size: 1.25rem;
+  }
+
+  .header-intro h1 {
+    padding: 0 0 40px 0;
+
+  }
+
+  .header-intro {
+    padding: 0 0 140px 0;
+  }
+
+  h2.proj-header {
+    padding: 140px 0 80px 0;
+
+  }
+
+    .project {
+    width: 30%;
+    align-items: center;
+  }
+
+
+/* fix skills stuff here */
+
+  #skills, #tools {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+#skills p,
+#tools p {
+  width: 25%;
+}
+
+
+  .about-wrapper {
+    margin: 140px 0 160px 0;
+    line-height: 2.5;
+  }
+
+  .about-wrapper h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-wrapper h3{
+      font-size: 1.5rem;
+      margin: 30px 0 0 0;
+    }
+
+  .footer-wrapper h2 {
+    margin: 160px 0 80px 0;
+}
+
+.footer-wrapper h3{
+  margin: 0 0 40px 0;
+}
+
+.footer-wrapper p {
+  margin: 140px 0 80px 0;
+}
+
 }
