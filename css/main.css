@@ -127,27 +127,23 @@ li a {
   color: #152a3e;
 }
 
-#project-link, 
+#project-link,
 #skills-link,
 #about-link,
 #contact-link {
   background-color: transparent;
   padding: 10px 15px;
-
-
-  
 }
 
-#project-link:hover, 
+#project-link:hover,
 #skills-link:hover,
 #about-link:hover,
-#contact-link:hover{
-background-color: #152a3e;
-color: #eeefda;
+#contact-link:hover {
+  background-color: #152a3e;
+  color: #eeefda;
 
-padding: 10px 15px;
-border-radius: 16px;
-
+  padding: 10px 15px;
+  border-radius: 16px;
 }
 
 .back-to-top {
@@ -156,17 +152,14 @@ border-radius: 16px;
   width: 100%;
 }
 
-.back-to-top a{
+.back-to-top a {
   display: block;
   text-align: end;
   margin: 0 25px 0 0;
   font-size: 2rem;
   color: #152a3e;
   text-decoration: none;
-
 }
-
-
 
 .header-intro {
   padding: 0 0 30px 0;
@@ -279,15 +272,15 @@ p span {
   flex-flow: row wrap;
 }
 
-.skills-header{
+.skills-header {
   width: 85%;
   margin-bottom: 80px;
 }
 
-.skills-wrapper {
-  /* width: 85%;
-  margin-bottom: 80px; */
-}
+/* .skills-wrapper {
+  width: 85%;
+  margin-bottom: 80px;
+} */
 
 .about-wrapper {
   width: 85%;
@@ -312,14 +305,13 @@ p span {
   background-color: #152a3e;
   color: #eeefda;
   padding: 15px 15px;
-  
 }
 
 .dev-skills-header {
   margin: 0 0 20px 0;
   font-family: "Lekton", sans-serif;
   font-weight: 900;
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 #tools {
@@ -382,7 +374,7 @@ p span {
   shape-outside: circle();
 }
 
-footer{
+footer {
   background-color: #eeefda;
 }
 
@@ -390,7 +382,6 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .footer-wrapper {
@@ -402,9 +393,7 @@ footer{
   margin: 80px 0 60px 0;
   text-align: center;
   font-size: 2.5rem;
-
 }
-
 
 .contact-wrapper h3 {
   margin-bottom: 30px;
@@ -532,8 +521,8 @@ footer{
 }
 
 @media print,
-  /* (-webkit-min-device-pixel-ratio: 1.25), */
-  (min-resolution: 1.25dppx),
+  /* (-webkit-min-device-pixel-ratio: 1.25),
+  */ (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
@@ -673,7 +662,7 @@ footer{
     margin: 40px 0 80px 0;
   }
 
-  .skills-header{
+  .skills-header {
     margin-bottom: 0;
   }
   .skills-header > h2 {
@@ -684,18 +673,17 @@ footer{
   .skills-wrapper {
     margin-bottom: 60px;
   }
-  #skills, #tools {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-}
+  #skills,
+  #tools {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
 
-#skills p,
-#tools p {
-  width: 40%;
-}
-
-
+  #skills p,
+  #tools p {
+    width: 40%;
+  }
 
   h2 {
     font-size: 2rem;
@@ -707,85 +695,82 @@ footer{
 
   .footer-wrapper h2 {
     font-size: 3.5rem;
-}
+  }
 
-/* ----------- For screens 1200px wide and larger----------- */
-@media (min-width: 1200px) {
-  /* body {
+  /* ----------- For screens 1200px wide and larger----------- */
+  @media (min-width: 1200px) {
+    /* body {
     background: gray;
   } */
 
-  nav ul {
-    padding: 80px 0 80px 0;
-    justify-content: flex-end;
-  }
+    nav ul {
+      padding: 80px 0 80px 0;
+      justify-content: flex-end;
+    }
 
-  nav li {
-    margin: 0 25px 0 25px;
-  }
+    nav li {
+      margin: 0 25px 0 25px;
+    }
 
-  nav a {
-    font-size: 1.25rem;
-  }
+    nav a {
+      font-size: 1.25rem;
+    }
 
-  .header-intro h1 {
-    padding: 0 0 40px 0;
+    .header-intro h1 {
+      padding: 0 0 40px 0;
+    }
 
-  }
+    .header-intro {
+      padding: 0 0 140px 0;
+    }
 
-  .header-intro {
-    padding: 0 0 140px 0;
-  }
-
-  h2.proj-header {
-    padding: 140px 0 80px 0;
-
-  }
+    h2.proj-header {
+      padding: 140px 0 80px 0;
+    }
 
     .project {
-    width: 30%;
-    align-items: center;
-  }
+      width: 30%;
+      align-items: center;
+    }
 
+    /* fix skills stuff here */
 
-/* fix skills stuff here */
+    #skills,
+    #tools {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: row wrap;
+    }
 
-  #skills, #tools {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-}
+    #skills p,
+    #tools p {
+      width: 25%;
+    }
 
-#skills p,
-#tools p {
-  width: 25%;
-}
+    .about-wrapper {
+      margin: 140px 0 160px 0;
+      line-height: 2.5;
+    }
 
+    .about-wrapper h2 {
+      font-size: 2.5rem;
+    }
 
-  .about-wrapper {
-    margin: 140px 0 160px 0;
-    line-height: 2.5;
-  }
-
-  .about-wrapper h2 {
-    font-size: 2.5rem;
-  }
-
-  .about-wrapper h3{
+    .about-wrapper h3 {
       font-size: 1.5rem;
       margin: 30px 0 0 0;
     }
 
-  .footer-wrapper h2 {
-    margin: 160px 0 80px 0;
-}
+    .footer-wrapper h2 {
+      margin: 160px 0 80px 0;
+    }
 
-.footer-wrapper h3{
-  margin: 0 0 40px 0;
-}
+    .footer-wrapper h3 {
+      margin: 0 0 40px 0;
+    }
 
-.footer-wrapper p {
-  margin: 140px 0 80px 0;
-}
-
+    .footer-wrapper p {
+      margin: 140px 0 80px 0;
+    }
+  }
 }
