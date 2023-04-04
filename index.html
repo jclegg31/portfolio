@@ -38,10 +38,10 @@
 
       <nav>
         <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills-sec">Skills</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="#projects" id="project-link">Projects</a></li>
+          <li><a href="#skills-sec" id="skills-link">Skills</a></li>
+          <li><a href="#about" id="about-link">About</a></li>
+          <li><a href="#contact" id="contact-link">Contact</a></li>
         </ul>
       </nav>
 
@@ -49,7 +49,7 @@
 
       <div class="header-intro">
         <h1>Hi there!<br> I'm Julie Clegg!</h1>
-        <h2>I’m a front-end developer based out of beautiful, sunny Colorado! </h2>
+        <h2>I’m a front-end developer <br> based out of beautiful, sunny Colorado! </h2>
       </div>
 
 
@@ -60,8 +60,9 @@
   <main>
 
     <section id="projects">
+      <h2 class="proj-header">Projects</h2>
       <div class="projects-wrapper">
-        <h2>Projects</h2>
+
         <div class="project">
           <div class="project-image">
             <a href="https://3y778e.csb.app/" target="_blank">
@@ -100,8 +101,8 @@
 
         <div class="project">
 
-          <div class="project-image" <a href="https://jclegg31.github.io/github-repo-gallery/" target="_blank"><img
-              src="./img/githubrepo.png" alt="GitHub Repo Gallery"></a>
+          <div class="project-image"> <a href="https://jclegg31.github.io/github-repo-gallery/" target="_blank"><img
+                src="./img/githubrepo.png" alt="GitHub Repo Gallery"></a>
           </div>
 
           <h3>GitHub Repo Gallery</h3>
@@ -136,48 +137,57 @@
         </div>
 
       </div>
+      <div class="back-to-top"><a href="#top">^</a></div>
     </section>
 
     <section id="skills-sec">
-      <div class="skills-wrapper">
+      <div class="skills-header">
         <h2>Skills</h2>
+        <div class="skills-wrapper">
 
-        <div class="skills-section">
-          <div id="skills">
-            <h2>Developer Skills</h2>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>Flexbox & CSS Grid</p>
-            <p>Responsive Web Development</p>
-            <p>JavaScript</p>
-            <p>React.js</p>
-            <p>JSX & ES6</p>
-            <p>Git & GitHub</p>
-            <p>APIs</p>
-            <p>Media Queries</p>
-          </div>
 
-          <div id="tools">
-            <h2>Tech Stack</h2>
-            <p>Visual Studio Code</p>
-            <p>Code Sandbox</p>
-            <p>Chrome Dev Tools</p>
-            <p>Photoshop</p>
-            <p>InDesign</p>
-            <p>Lightroom</p>
-            <p>FTP Clients</p>
-            <p>Web Hosting</p>
-            <p>Git</p>
+          <div class="skills-section">
+            <h3 class="dev-skills-header">Developer Skills</h3>
+            <div id="skills">
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>Flexbox & CSS Grid</p>
+              <p>Responsive Web Development</p>
+              <p>JavaScript</p>
+              <p>React.js</p>
+              <p>JSX & ES6</p>
+              <p>Git & GitHub</p>
+              <p>APIs</p>
+              <p>Media Queries</p>
+            </div>
+
+            <h3 class="dev-skills-header">Tech Stack</h3>
+
+            <div id="tools">
+              <p>Visual Studio Code</p>
+              <p>Code Sandbox</p>
+              <p>Chrome Dev Tools</p>
+              <p>Photoshop</p>
+              <p>InDesign</p>
+              <p>Lightroom</p>
+              <p>FTP Clients</p>
+              <p>Web Hosting</p>
+              <p>Git</p>
+            </div>
+
           </div>
         </div>
+
       </div>
+      <div class="back-to-top"><a href="#top">^</a></div>
     </section>
+
 
     <section id="about">
       <div class="about-wrapper">
         <!-- testing out wrapping text around a circle image -->
         <div id="circle-shape" class="solo-image">
-          <img src="./img/julieclegg.png" alt="Julie Clegg photo" class="curve" />
+          <img src="./img/julieclegg.png" alt="Julie Clegg photo" class="circle">
           <h2>Hi! I'm Julie Clegg. </h2>
           <h3>I’m a front-end developer based out of Colorado!</h3>
 
@@ -204,45 +214,53 @@
             between being creative and being more technical. Over the years I found that coding struck the perfect
             balance
             between the two that allowed me to do both.</p>
-
           <p>When I’m offline you’ll find me at my sons’ travel baseball games or hiking around all the great trails
             Colorado has to
             offer.</p>
         </div>
-
       </div> -->
       </div>
-
+      <div class="back-to-top"><a href="#top">^</a></div>
     </section>
+
 
 
   </main>
 
-  <footer id="contact">
-    <div class="footer-wrapper">
-      <h2>Let's Connect</h2>
-      <div class="contact-wrapper">
-        <h3>Follow | <a href="mailto: forechecker@gmail.com" target="_blank">Email</a> | Hire Me</h3>
-        <ul>
-          <li>
-            <a href="https://github.com/jclegg31" target="_blank"><i class="fa-brands fa-github"></i></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/juliecleggrealtor/" target="_blank"><i
-                class="fa-brands fa-linkedin-in"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/juliecleggrealtor/" target="_blank"><i
-                class="fa-brands fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="https://codepen.io/jclegg31" target="_blank"><i class="fa-brands fa-codepen"></i></a>
-          </li>
-        </ul>
+  <footer>
+    <div id="contact">
+      <div class="footer-wrapper">
+        <h2>Let's Connect</h2>
+
+        <div class="contact-wrapper">
+          <h3>Follow | <a href="mailto:forechecker@gmail.com" target="_blank">Email</a> | Hire Me</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/jclegg31" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/juliecleggrealtor/" target="_blank"><i
+                  class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/juliecleggrealtor/" target="_blank"><i
+                  class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://codepen.io/jclegg31" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+            </li>
+          </ul>
+
+          <p>Hand-coded by Julie Clegg &copy;2023</p>
+
+        </div>
       </div>
-      <p>Hand-coded by Julie Clegg &copy2023</p>
+
     </div>
+    <div class="back-to-top"><a href="#top">^</a></div>
   </footer>
+
+
 
 
 
