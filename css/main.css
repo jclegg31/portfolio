@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -86,10 +87,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* font-family: 'Lekton', sans-serif;
-font-family: 'Lexend Deca', sans-serif;
-font-family: 'Lexend Tera', sans-serif;
- */
 
 body {
   font-size: 1em;
@@ -111,7 +108,7 @@ img {
 }
 
 header .header-wrapper {
-  width: 85%;
+  width: 80%;
 }
 
 nav ul {
@@ -200,7 +197,7 @@ h2.proj-header {
 }
 
 .project {
-  width: 85%;
+  width: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -238,11 +235,6 @@ p span {
   width: 100%;
 }
 
-/* .skills,
-.tools {
-  margin: 0;
-} */
-
 .live-link {
   display: flex;
   justify-content: center;
@@ -273,17 +265,12 @@ p span {
 }
 
 .skills-header {
-  width: 85%;
+  width: 80%;
   margin-bottom: 80px;
 }
 
-/* .skills-wrapper {
-  width: 85%;
-  margin-bottom: 80px;
-} */
-
 .about-wrapper {
-  width: 85%;
+  width: 80%;
   margin: 80px 0;
 }
 
@@ -328,26 +315,6 @@ p span {
   width: auto;
 }
 
-/* #skills p,
-#tools p {
-  margin: 20px 0;
-} */
-
-/* Leave here in case you change mind on About me section */
-/* .photo-section {
-  display: flex;
-}
-
-.devphoto {
-  border: 2px solid black;
-  border-radius: 50%;
-}
-*/
-/* .circlephoto,
-.curve {
-  border-radius: 50%;
-} */
-
 #about {
   width: 100%;
   display: flex;
@@ -385,7 +352,7 @@ footer {
 }
 
 .footer-wrapper {
-  width: 85%;
+  width: 80%;
   /* margin: 0; */
 }
 
@@ -604,10 +571,6 @@ footer {
 
 /* ----------- For screens smaller than 375px  ----------- */
 @media (max-width: 375px) {
-  /* body {
-    background: yellow;
-  } */
-
   .solo-image {
     display: flex;
     flex-direction: column;
@@ -621,10 +584,6 @@ footer {
 
 /* ----------- For screens 768px and larger ----------- */
 @media (min-width: 768px) {
-  /* body {
-    background: lightblue;
-  } */
-
   nav ul {
     padding: 30px 0 80px 0;
     justify-content: space-around;
@@ -654,7 +613,7 @@ footer {
   }
 
   .project {
-    width: 45%;
+    width: 38%;
     align-items: center;
   }
 
@@ -699,10 +658,6 @@ footer {
 
   /* ----------- For screens 1200px wide and larger----------- */
   @media (min-width: 1200px) {
-    /* body {
-    background: gray;
-  } */
-
     nav ul {
       padding: 80px 0 80px 0;
       justify-content: flex-end;
@@ -729,11 +684,9 @@ footer {
     }
 
     .project {
-      width: 30%;
+      width: 27%;
       align-items: center;
     }
-
-    /* fix skills stuff here */
 
     #skills,
     #tools {
