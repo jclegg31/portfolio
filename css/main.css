@@ -382,7 +382,8 @@ footer {
   color: #152a3e;
 }
 
-.footer-wrapper p {
+.footer-wrapper p,
+#year {
   text-align: center;
   margin: 60px 0;
   font-family: "Lekton", sans-serif;
